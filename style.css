@@ -1,0 +1,70 @@
+html {
+	overflow-y: scroll;
+	background-size: cover;
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: black;
+	line-height: 1.5;
+}
+
+a{
+	color: #26518c;
+	text-decoration: initial;
+	font-weight: bold;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+h2 {
+	margin: 0;
+	background-color: #f1f3f4;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+/*------------------------- Header ------------------------*/
+.header {
+	width: 100%;
+	display:table;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.profile{
+		float: left;
+}
+
+.profile div{
+	font-size: 26px;
+	opacity: 1;
+	font-weight: bold;
+}
+
+.profile img {
+	height: 200px;
+	margin-top: 10px;
+}
+
+.job{
+	margin-top: 70px;
+	color: #4f5d64;
+  font-weight: bold;
+}
+
+/*------------------------- Content ------------------------*/
+
+.content {
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: justify;
+}
